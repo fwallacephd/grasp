@@ -1,13 +1,19 @@
 /*GRASP*/
 
 /*BODY*/
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
+* {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /*FONTS*/
-@font-face {
-   font-family: 'graspfont';
-   src: url(..);
-}
+
 
 /*COLORS
 

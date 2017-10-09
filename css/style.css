@@ -2,10 +2,12 @@
 
 /*BODY*/
 
-/*FONTS
-font-family: 'Amaranth', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
+
+/*FONTS*/
+@font-face {
+   font-family: 'graspfont';
+   src: url(..);
+}
 
 /*COLORS
 
@@ -13,67 +15,137 @@ font-family: 'Open Sans', sans-serif;
 
 /*SECTION - TOP-NAV*/
 #top-nav {
-    background-color: lightblue;
+    background-color: #0085BF;
     border-bottom: 0%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
-    border-bottom: 0;;
+    border-bottom: 0;
+    color: black;
+    padding-top: 10px;
 }
 
 /*SECTION - LOGO*/
 #logo {
-    border-top: 4px solid black;
-    font-family: 'Amaranth', sans-serif;
-    font-size: 40px;
-    border-bottom: 4px solid black;
-    padding-bottom: 20px;
+    border-top: 4px solid #BA1C24;
+    border-bottom: 4px solid #BA1C24;
+}
+
+.grasp-logo {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 /*SECTION - BOTTOM-NAV*/
 #bottom-nav {
-    background-color: lightblue;
+    background-color: #0085BF;
+    color: black;
     border-bottom: 0%;
-    border-bottom: 4px solid black;
-    font-family: 'Open Sans', sans-serif;
+    border-bottom: 4px solid #BA1C24;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
+    padding-top: 10px;
 }
 
 .title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
     border-bottom: 0%;
 }
 
 /*SECTION - ABOUT US*/
 #about-us {
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #BA1C24;
 }
 
 .about-us {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
     font-size: 40px;
     border-bottom: 0%;
 }
 
 .content {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
 }
 
+.philosophy {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 25px;
+    border-bottom: 0%;
+}
+
+.experience {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 25px;
+    border-bottom: 0%;
+}
+
+.fa-lightbulb-o,
+.fa-briefcase {
+    color: #0085BF;
+}
+
+
 /*SECTION - SERVICES*/
 #services {
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #BA1C24;
 }
 
 .services {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
     font-size: 40px;
     border-bottom: 0%;
 }
 
+.basic {
+    text-align: center;
+
+}
+
+.basic-title {
+    color: #BA1C24;
+    font-size: 25px;
+}
+
+.details {
+    font-size: 20px;
+}
+
+.premium {
+    text-align: center;
+}
+
+.premium-title {
+    color: #BA1C24;
+    font-size: 25px;
+}
+
+.add-on {
+    text-align: center;
+}
+
+.add-on-title {
+    color: #BA1C24;
+    font-size: 25px;
+}
+
+
 /*SECTION - CONTACT US*/
+#contact-us {
+    background-color: #0085BF;
+}
+
 .contact-us {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
     border-bottom: 0%;
+    color: white;
+
 }

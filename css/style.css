@@ -81,6 +81,10 @@ a:hover {
     border-bottom: 0%;
 }
 
+.virtual-assessments {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+}
 .content {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
